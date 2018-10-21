@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace MultiDebugSample.WebApp1
+namespace MultiDebugSample.WebApp2
 {
     public class Startup
     {
@@ -27,7 +27,7 @@ namespace MultiDebugSample.WebApp1
 
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("<h1>Hello World from App1!</h1>");
+                await context.Response.WriteAsync("<h1>Hello World from App2!</h1>");
             });
         }
     }
